@@ -4,6 +4,7 @@ export default function html([first,...string],...values){
         (acc,cur)=>acc.concac(cur, string.shift()),
         [first]
     )
+    .filter()
     .join('')
     
 }
