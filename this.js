@@ -27,4 +27,7 @@ function Car(name, color, weight){
     }
 
 }
+Car.prototype.test=function(){
+    console.log(test)
+}
 const MercedesS450=new Car('MercedesS450', 'black,'200KG')
